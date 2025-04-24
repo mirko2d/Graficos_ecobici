@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Informe Ecobici</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #34495e;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 50px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section {
+      background-color: white;
+      border-radius: 10px;
+      padding: 40px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #2c3e50;
+      font-size: 28px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+    }
+    .watermark {
+  position: fixed;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  font-size: 100px;
+  color: rgba(0, 0, 0, 0.05);
+  font-weight: bold;
+  pointer-events: none;
+  z-index: 0;
+  white-space: nowrap;
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Análisis de Usuarios de Ecobici en Buenos Aires</h1>
+  </header>
+
+  <nav>
+    <a href="graficos.html">Ver gráficos</a>
+  </nav>
+
+  <section>
+    <div class="section">
+      <h2>Introducción</h2>
+      <p>
+        Este informe presenta un análisis exploratorio de datos de los usuarios del sistema Ecobici de la Ciudad de Buenos Aires. El objetivo principal es comprender los patrones de uso, el perfil demográfico de los usuarios y la evolución del servicio a lo largo del tiempo. Para ello, se han generado una serie de gráficos que permiten visualizar la distribución de altas por género, edad, días de la semana y franjas horarias. 
+        <br><br>
+        El estudio también examina la evolución temporal de los registros, lo que facilita identificar picos de demanda o comportamientos estacionales. Estos datos son clave para una mejor toma de decisiones por parte de las autoridades, permitiendo optimizar el servicio, mejorar la planificación urbana y fomentar el uso sostenible del transporte.
+        <br><br>
+        A través de esta visualización, se busca no solo exponer los hallazgos, sino también facilitar su interpretación de forma clara y accesible.
+      </p>
+    </div>
+  </section>
+  <div class="watermark">¡Qué facha!</div>
+
+</body>
+</html>
